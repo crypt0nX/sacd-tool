@@ -5,7 +5,7 @@
  *    Some SACD iso use 2064bytes/sector
  *    [--12--][+++2048+++][--4--] is the scheme to keep at least with the SACD I tested.
  */
-
+#include <string.h>
 #include <stdio.h>
 #include <unistd.h>
 
